@@ -1,0 +1,95 @@
+Oi
+Olá! Como posso ajudar com suas farms no Minecraft?
+
+Olá
+Oi! Precisa de ajuda para construir alguma farm?
+
+Como faço uma farm de trigo, batata ou cenoura?
+Plante os itens em solo arado com água ao redor, use villagers (farmer) com acesso à plantação e um funil/coletor embaixo para automatizar a colheita.
+
+Como faço uma farm de cana-de-açúcar?
+Plante em terra ao lado de água. Use observadores para detectar crescimento e pistões para quebrar a cana automaticamente. Um carrinho com funil coleta por baixo.
+
+Como faço uma farm de abóboras e melões?
+Plante o caule em um bloco, e ao lado deixe um espaço livre. Use observadores para detectar o crescimento do fruto e pistões para empurrá-lo para funis.
+
+Como faço uma farm de cacto?
+Plante em areia com blocos ao lado do local onde o cacto cresce. Quando o cacto cresce, ele se quebra automaticamente. Um funil/coletor embaixo pega o item.
+
+Como faço uma farm de bambu?
+Mesma lógica da cana: plantio em terra, observador no terceiro bloco e pistões para quebrar. Use carrinho com funil embaixo para coleta.
+
+Como faço uma farm de vacas, ovelhas e porcos?
+Crie um cercado e alimente os animais com trigo ou cenoura. Para automação, use lava temporária controlada por dispensadores ou sistemas de criação forçada com água.
+
+Como faço uma farm de galinhas?
+Coloque várias galinhas em um bloco pequeno com funil embaixo. Use dispensadores de ovos para gerar novas galinhas e lava para matança automática.
+
+Como faço uma farm de abelhas?
+Coloque colmeias com flores próximas. Use dispensadores com tesouras ou frascos para coletar mel e favos. É preciso cuidar da iluminação e das flores.
+
+Como faço uma farm de pesca AFK?
+Construa um local com água, gancho, bloco de ferro e vara de pesca com Mending. Use macro ou peso no botão direito (Java Edition). Requer posição exata do cursor.
+
+Como faço uma farm de ferro?
+Coloque pelo menos 3 villagers com camas e estações de trabalho, e um zumbi perto para assustá-los. Os Golems surgem e caem em lava com funis abaixo.
+
+Como faço uma farm de ouro e piglin bartering?
+Construa em cima do Nether (Y > 256) com portais gigantes ou matar piglins zumbificados. Use piglins presos com funis e dê ouro automaticamente com dispensadores.
+
+Como faço uma farm de lava?
+Use goteiras (dripstone) embaixo de caldeirões com lava acima. A lava pinga e enche o caldeirão ao longo do tempo.
+
+Como faço uma farm de pedra infinita (cobblestone generator)?
+Coloque lava de um lado e água do outro. Quando se encontram, formam pedra. Use pistões e redstone para empurrar automaticamente.
+
+Como faço uma farm de cobre?
+Não é automática. O cobre precisa ser minerado em biomas de cavernas (nível Y47). Você pode usar Tuff e Deepslate para automatizar mineração com TNT dupers ou pistões.
+
+Como faço uma mob farm básica?
+Construa uma torre escura no alto (altura > 128), com água empurrando os mobs para queda. Morte por queda ou por lava. Itens caem em funis.
+
+Como faço uma farm de creepers?
+Mob farm normal, mas com altura de 2 blocos (impede outros mobs). Use tapetes no chão e gatos para assustar os creepers em direção à queda.
+
+Como faço uma farm de blaze?
+Construa em um spawner de blaze. Crie uma sala cercada por pistões/placas empurrando os mobs até uma câmara de matança com lava ou espadas.
+
+Como faço uma farm de enderman?
+Construa no The End, longe da ilha principal. Use uma Endermite no meio, cercada por armadilhas. Endermans correm até ela e caem em um buraco.
+
+Como faço uma farm de slime?
+Construa em chunk de slime entre Y0–Y40. Crie plataformas com golems de ferro no centro para atrair os slimes. Eles morrem por queda ou lava.
+
+Como faço uma farm de bruxas (witches)?
+Construa em cima de uma cabana de bruxa (Swamp biome). Faça plataformas com blocos que se movem (sweeper) e transporte as bruxas para lava ou esmagamento.
+
+Como faço uma farm de villagers e esmeraldas?
+Crie vilas artificiais com villagers com profissões como Farmer ou Mason. Troque abóboras, pedras ou argila por esmeraldas. Curar villagers zumbis dá desconto.
+
+Como faço uma farm de wither skeletons?
+Construa plataformas dentro da Nether Fortress (bounding box). Use slab nos arredores para evitar outros spawns. Golem de ferro ou tartarugas atraem os esqueletos para armadilhas.
+
+Como faço uma farm de estrela do Nether (Wither boss)?
+Mate manualmente o Wither ou prenda-o em bedrock (ex: no teto do Nether). Automatizar é arriscado; o ideal é usar um local seguro para matá-lo com pistões/placas explosivas.
+
+Como faço uma farm de raid (invasão)?
+Provoque uma raid com Efeito de Má Sorte. Villagers são colocados próximos a uma armadilha. Pillagers são levados por água até uma zona de matança, onde droparão totens e esmeraldas.
+
+Como faço uma farm de shulker shells?
+No End, após o update 1.17+, shulkers podem se reproduzir ao acertar outro com sua bala. Use teleportes, pistões e chamber para atrair, reproduzir e matar com Looting III.
+
+Como faço uma farm de sculk XP?
+Use um Sculk Catalyst embaixo de onde mobs morrem. Quando os mobs forem mortos, o Catalyst transforma o chão em blocos de Sculk, que ao serem minerados com Silk Touch ou fortune dão XP.
+
+Como faço uma farm de madeira?
+Plante mudas em solo fértil com espaçamento adequado. Use dispensadores com bone meal para forçar o crescimento. Detecte a árvore com observadores e use pistões com blocos de slime para empurrar os troncos. Para grandes quantidades, é possível usar duplicadores de TNT (Java Edition) para quebrar automaticamente os troncos e coletar com funis.
+
+Como faço uma farm de flores?
+Construa em um bioma fértil (como flower forest) ou use grama comum. Ative bone meal em blocos de grama com dispensadores. Use pistões ou flying machines para empurrar as flores recém-geradas e quebre-as. Um carrinho com funil por baixo recolhe tudo. Algumas flores só crescem em biomas específicos — escolha o local conforme a flor desejada.
+
+Como faço uma farm de musgo?
+Coloque um bloco de musgo e aponte um dispensador com bone meal para ele. Ao ativar, ele transforma os blocos ao redor em mais musgo. Use pistões com redstone ou slime blocks para empurrar os blocos de musgo e quebrá-los. Carrinhos com funil coletam os drops. Essa farm gera musgo, musgo em tapete, azaleias e sementes brilhantes (glow berries).
+
+Como faço uma farm de XP com spawner?
+Encontre um spawner de zumbi, esqueleto ou aranha. Ilumine o ambiente ao redor, cave uma sala (9x9x5), adicione água nos cantos para empurrar os mobs até uma zona de matança. Deixe-os com 1 de vida (queda ou pistões) e mate com espada para ganhar XP constantemente.
