@@ -1,34 +1,38 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-import os
 
-# Criar e treinar bot local com conversas.txt
-bot = ChatBot("MinecraftBot")
+# Cria ou carrega o bot, usando SQLite para armazenar o conhecimento
+bot = ChatBot(
+    "MinecraftBot",
+    storage_adapter='chatterbot.storage.SQLStorageAdapter',
+    database_uri='sqlite:///db.sqlite3'  
+)
+
+# Usa o treinador de lista para ensinar o bot em tempo real
 trainer = ListTrainer(bot)
 
-# Caminho do arquivo
-caminho_txt = os.path.join(os.path.dirname(__file__), "conversas.txt")
-
-# Ler e treinar com as perguntas/respostas locais
-with open(caminho_txt, "r", encoding="utf-8") as arquivo:
-    linhas = [linha.strip() for linha in arquivo if linha.strip()]
-    trainer.train(linhas)
-
-# Loop de conversa
 print("MinecraftBot pronto! (Digite 'sair' para encerrar)")
+name = input("Digite seu nome: ")
+print("Olá " + name + ", como posso te ajudar com o Minecraft?")
 
+# Início do loop de conversa
 while True:
-    pergunta = input("Você: ")
-    if pergunta.lower() in ["sair", "tchau"]:
-        print("MinecraftBot: Até logo!")
+    request = input("Você: ")  
+    if request.lower() in ["sair", "tchau"]:
+        print("MinecraftBot: Até logo!") 
         break
 
-    resposta = bot.get_response(pergunta)
-    texto_resposta = str(resposta)
+    # Pede uma resposta ao bot
+    resposta = bot.get_response(request) 
 
-    # Verifica se o bot respondeu com confiança
-    if float(resposta.confidence) < 0.7 or "não sei" in texto_resposta.lower() or len(texto_resposta) < 10:
-        print("MinecraftBot:Não sei isso ainda...")
+    # Se a confiança da resposta for baixa ou a resposta parecer vaga, pergunta ao usuário
+    if float(resposta.confidence) < 0.9 or "não sei" in str(resposta).lower():
+        print("MinecraftBot: Não sei isso ainda. Você pode me ensinar?")
+        nova_resposta = input("Você: (ensine a resposta correta) ")
+        
+        # Se o usuário fornecer uma resposta válida, o bot aprende na hora
+        if nova_resposta.strip():
+            trainer.train([request, nova_resposta])  
+            print("MinecraftBot: Obrigado! Agora eu sei.")  
     else:
-        print(f"MinecraftBot: {resposta}")
-
+        print(f"MinecraftBot: {resposta}") 
